@@ -1,0 +1,4 @@
+#Mon Mar 15 18:55:30 EDT 2021
+base.0=/Users/codyblanchard/Projects/TodoApp/app/todoapp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
