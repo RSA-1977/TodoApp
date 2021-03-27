@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' show Color, FontWeight, TextStyle;
 
 Color darkGreyColor = new Color(0xFF212128);
-
 Color redColor = new Color(0xFFDC4F64);
 
 TextStyle intrayTitleStyle = new TextStyle(
@@ -9,3 +8,9 @@ TextStyle intrayTitleStyle = new TextStyle(
     fontWeight: FontWeight.bold,
     color: darkGreyColor,
     fontSize: 50);
+
+TextStyle darkTodoTitle = new TextStyle(
+    fontFamily: 'Avenir',
+    fontWeight: FontWeight.bold,
+    color: darkGreyColor,
+    fontSize: 30);

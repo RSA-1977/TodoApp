@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'UI/Intray/intray_page.dart';
 import 'models/global.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -14,13 +12,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: MyHomePage(title: 'Todo App '),
+      home: MyHomePage(title: 'Todo app'),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
+
   final String title;
 
   @override
@@ -58,14 +57,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.white,
                 ),
                 child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Text(
-                        "Intray",
-                        style: intrayTitleStyle,
-                      ),
-                      Container()
-                    ]),
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Text(
+                      "Intray",
+                      style: intrayTitleStyle,
+                    ),
+                    Container()
+                  ],
+                ),
               ),
               Container(
                 height: 80,
